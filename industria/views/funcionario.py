@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from serializers import FuncionarioSerializer
-from models import Funcionario
+from industria.serializers import FuncionarioSerializer
+from industria.models import Funcionario
 
 class FuncionarioViewSet(ModelViewSet):
     queryset = Funcionario.objects.all()

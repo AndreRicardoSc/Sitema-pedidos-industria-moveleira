@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from serializers import ClienteSerializer
-from models import Cliente
+from industria.serializers import ClienteSerializer
+from industria.models import Cliente
 
 class ClienteViewSet(ModelViewSet):
     queryset = Cliente.objects.all()
