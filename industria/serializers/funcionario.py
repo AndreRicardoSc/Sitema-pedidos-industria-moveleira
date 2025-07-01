@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from models import Funcionario
+from industria.models import Funcionario
 
 class FuncionarioSerializer(ModelSerializer):
     class Meta:

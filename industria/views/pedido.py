@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from serializers import PedidoSerializer
-from models import Pedido
+from industria.serializers import PedidoSerializer
+from industria.models import Pedido
 
 class PedidoViewSet(ModelViewSet):
     queryset = Pedido.objects.all()

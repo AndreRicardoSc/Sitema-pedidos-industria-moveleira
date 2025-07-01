@@ -1,5 +1,5 @@
 from rest_framework.serializers import ModelSerializer
-from models import MateriaPrima
+from industria.models import MateriaPrima
 
 class MateriaPrimaSerializer(ModelSerializer):
     class Meta:
