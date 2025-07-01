@@ -5,3 +5,9 @@ class PedidoSerializer(ModelSerializer):
     class Meta:
         model = Pedido
         fields = "__all__"
+
+class PedidoDetailSerializer(ModelSerializer):
+    class Meta:
+        model = Pedido
+        fields = "__all__"
+        depth = 1
